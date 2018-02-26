@@ -1,5 +1,8 @@
 Notes from the phone interview 1
 
+DIFFICULTY
+- 2/5
+
 QUESTIONS
 - name the hardest bug you've come across and what you did to fix it
 	answer: WatchSafe finding out if SightEngine returned specific times
@@ -13,7 +16,6 @@ QUESTIONS
 - Static vs Dynamic Typing
 	answer: static typing is not changeable later have to explicitly mention i.e. java, 
 	dynamic typing you don't have to specifically mention i.e. Python
-
 
 GOOD
 - Reviewed company beforehand, had read blog and interviewer's LinkedIn account
