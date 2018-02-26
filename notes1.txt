@@ -1,0 +1,28 @@
+Notes from the phone interview 1
+
+QUESTIONS
+- name the hardest bug you've come across and what you did to fix it
+	answer: WatchSafe finding out if SightEngine returned specific times
+- give example of a project you did on your free time
+	answer: WatchSafe, personal website for photography, and readRelax
+- hobbies?
+	answer: rugby, reading, sports in general
+- code program to get max and min of array and then add them
+- Difference between your two most used programming languages
+	answer: Java & C, object oriented vs procedural and why that matters
+- Static vs Dynamic Typing
+	answer: static typing is not changeable later have to explicitly mention i.e. java, 
+	dynamic typing you don't have to specifically mention i.e. Python
+
+
+GOOD
+- Reviewed company beforehand, had read blog and interviewer's LinkedIn account
+- had good answers for most questions, liked my bug question answer
+
+IMPROVE
+- be more decisive with what language you're going to use
+- talk through your solution
+- just start coding and then get more specific as you go
+- keep in mind boundary values, etc i.e. this time didn't know if would work with negative
+- Python DOESN'T USE STATIC TYPING!
+- function definition in Python needs formal arguments!!!
