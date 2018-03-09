@@ -1,2 +1,4 @@
-# InterviewResources
-An assortment of resources for interviews, including notes and practice questions
+# Interview Resources
+
+A collection of resources meant to track my progress through the maze of job searches that a student faces. 
+
