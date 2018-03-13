@@ -1,0 +1,32 @@
+Notes from IN PERSON interview 2
+
+TYPE
+- inperson
+
+DIFFICULTY
+- 2/5
+
+QUESTIONS
+- designing an outdoor speaker, what considerations do we have?
+	answer: weather proof, audio quality, etc
+- why us if biomed?
+	answer: care about quality products above all else
+- hobbies?
+	answer: rugby, reading, sports in general
+- how would test change if rising speed changed from 1ft/s to 3ft/s
+
+
+ASKED THEM
+- why did you open up aeryon defense? wouldn't you lose some competitive advantage??
+	answer: to handle the beuaracracy so we don't have to be impeded by it
+
+GOOD
+- Reviewed company beforehand, had read blog and interviewer's LinkedIn account
+- had good answers for most questions, liked my bug question answer
+- they asked me a lot of questions so probably wouldn't have done those unless they were interested
+
+IMPROVE
+- be a little bit more clear with language you use
+- ask if it's okay to follow uo
+- ask what a reasonable timeline would be for decisions
+- ask about devs/testers ratios etc.
