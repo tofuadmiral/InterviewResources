@@ -27,6 +27,6 @@ GOOD
 
 IMPROVE
 - be a little bit more clear with language you use
-- ask if it's okay to follow uo
+- ask if it's okay to follow up
 - ask what a reasonable timeline would be for decisions
 - ask about devs/testers ratios etc.
