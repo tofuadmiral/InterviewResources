@@ -1,0 +1,29 @@
+Notes from Phone interview 4
+
+TYPE
+- phone
+- midsize 50 employees
+
+DIFFICULTY
+- 1/5
+
+QUESTIONS
+
+- elevator pitch about yourself
+	answer: talked about inspo from summer job at the hospital
+- Why interested in us?
+	answer: talked about mom using the service, etc. 
+
+
+ASKED THEM
+- what would a software engineer be working on there
+	answer: iOS and Java (android studio) apps
+
+GOOD
+- got in person next week
+
+IMPROVE
+- make sure to brush up on android knowledge
+- brush up/prototype an iOS app as well
+
+
