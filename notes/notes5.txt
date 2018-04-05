@@ -1,0 +1,33 @@
+Notes from IN PERSON interview 5
+
+TYPE
+- inperson
+- Startup
+
+DIFFICULTY
+- 3/5
+
+QUESTIONS
+
+- elevator pitch about yourself
+	answer: talked about inspo from summer job at the hospital
+- did you do any evaluation of your models on watchsafe, hospital stuff or IBM watson sentiment analysis?
+	answer: no didnt get to that stage either
+- did you do any normalization models during the project you worked on
+	answer: didn't get to that stage, didn't run across those problems bc very preliminary
+
+
+ASKED THEM
+- how your product works?
+	answer: partnership w hhs and looks for social factors primarily 
+
+GOOD
+
+- knew what to ask, what they were going to ask
+- knew about different models for ML
+
+
+IMPROVE
+- KNOW YOUR ML if you're going to put it on resume, be specific with technologies
+- evaluation of an ML alg is important
+- normalization is important!!!
