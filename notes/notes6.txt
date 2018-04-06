@@ -14,8 +14,12 @@ QUESTIONS
 - how would you design hash function most difficult to trace back?
 	answer: DIDN'T KNOW, gave very vague answer
 - how to stay listening for an event if didn't have callbacks?
-	answer: just had a while loop and kept listening for the 
-- two servers want to speak to each other
+	answer: just had a while loop and kept listening for the event
+- two servers want to speak to each other, how to best design so that no one can listen in?
+	answer: communicate via hash function
+- what if someone else had the hash function?
+	answer: double hash both answers so that couldn't track
+
 
 
 ASKED THEM
