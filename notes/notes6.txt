@@ -24,13 +24,21 @@ QUESTIONS
 
 ASKED THEM
 - what would a software engineer be working on there
-	answer: iOS and Java (android studio) apps
+	answer: working on the machine learning platform and some frontend work on website as well, perhaps some market research
+- how they met, how they started the company?
+	answer: chance, lots of hard work
 
 GOOD
-- got in person next week
+- asked me if i would be interested in a business internship with them
+- seemed to like me personally a lot
 
 IMPROVE
-- make sure to brush up on android knowledge
-- brush up/prototype an iOS app as well
+- know much more about hash functions
+- know about machine learning specifics i.e. normalization, etc
+- know about SQL possibly
+
+DIDNT GET THIS J0B
+
+
 
 
