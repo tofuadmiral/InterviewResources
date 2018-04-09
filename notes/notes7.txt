@@ -1,0 +1,38 @@
+Notes from in person interview 6
+
+TYPE
+- in person
+- mid size
+
+DIFFICULTY
+- 4/5
+
+QUESTIONS
+
+- elevator pitch about yourself
+	answer: talked about inspo from summer job at the hospital
+- how would you design hash function most difficult to trace back?
+	answer: DIDN'T KNOW, gave very vague answer
+- how to stay listening for an event if didn't have callbacks?
+	answer: just had a while loop and kept listening for the event
+- two servers want to speak to each other, how to best design so that no one can listen in?
+	answer: communicate via hash function
+- what if someone else had the hash function?
+	answer: double hash both answers so that couldn't track
+
+
+
+ASKED THEM
+- what would a software engineer be working on there
+	answer: working on the machine learning platform and some frontend work on website as well, perhaps some market research
+- how they met, how they started the company?
+	answer: chance, lots of hard work
+
+GOOD
+- asked me if i would be interested in a business internship with them
+- seemed to like me personally a lot
+
+IMPROVE
+- know much more about hash functions
+- know about machine learning specifics i.e. normalization, etc
+- know about SQL possibly
