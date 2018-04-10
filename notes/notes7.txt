@@ -8,7 +8,6 @@ DIFFICULTY
 - 3/5
 
 QUESTIONS
-
 - elevator pitch about yourself
 	answer: talked about inspo from summer job at the hospital
 - new format:
@@ -25,7 +24,6 @@ QUESTIONS
 	answer: didn't know much SQL but did the design loosely just so that I could give an answer
 
 
-
 ASKED THEM
 - what teams are there?
 	answer: three: mobile dev, backend and product
@@ -33,13 +31,17 @@ ASKED THEM
 	answer: yes, very much so i.e. works closely with all teams
 - why objective C instead of SWIFT?
 	answer: phasing out objective C gradually 
-	
+- how will culture change w acquisition?
+	answer: seperate offices, so not much. this why their hiring process has to be good
+- work on both iOS and android??
+	answer: yes, will work on both platforms
 
 GOOD
-- asked me if i would be interested in a business internship with them
-- seemed to like me personally a lot
+- impressed by my questions, especially the culuture question
+- seemed to like my answers for the array, completed that very quickly, made some jokes
+- gave me a tour after the interview of their offices
 
 IMPROVE
-- know much more about hash functions
-- know about machine learning specifics i.e. normalization, etc
-- know about SQL possibly
+- KNOW SQL. THEN YOU COULD'VE GOT THE LAST QUESTION
+- worry less about the android questions they could ask you and more about basic data structures and algorithms questions
+- don't make the tour awkward, i.e. you said android stuff but it was actually XCODE.
