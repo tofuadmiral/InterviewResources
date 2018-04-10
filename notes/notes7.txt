@@ -5,28 +5,35 @@ TYPE
 - mid size
 
 DIFFICULTY
-- 4/5
+- 3/5
 
 QUESTIONS
 
 - elevator pitch about yourself
 	answer: talked about inspo from summer job at the hospital
-- how would you design hash function most difficult to trace back?
-	answer: DIDN'T KNOW, gave very vague answer
-- how to stay listening for an event if didn't have callbacks?
-	answer: just had a while loop and kept listening for the event
-- two servers want to speak to each other, how to best design so that no one can listen in?
-	answer: communicate via hash function
-- what if someone else had the hash function?
-	answer: double hash both answers so that couldn't track
+- new format:
+	they asked me questions (personality first) then they asked me to ask questions 
+- asked about watchsafe and about hospital app that I created 
+	answer: showed them the project, explained that i couldnt show hospital stuff because of the privacy issues
+- what team would you like to join? 
+	answer: backend or mobile dev
+- array, sum all elements of the array
+	answer: coded it in java, super easy
+- object oriented design
+	answer: implemented an interface for a receipt item using their predefined one on codeshare
+- SQL join tables, asked to make a query to design room bookings for hotels
+	answer: didn't know much SQL but did the design loosely just so that I could give an answer
 
 
 
 ASKED THEM
-- what would a software engineer be working on there
-	answer: working on the machine learning platform and some frontend work on website as well, perhaps some market research
-- how they met, how they started the company?
-	answer: chance, lots of hard work
+- what teams are there?
+	answer: three: mobile dev, backend and product
+- chance to get involved with design?? 
+	answer: yes, very much so i.e. works closely with all teams
+- why objective C instead of SWIFT?
+	answer: phasing out objective C gradually 
+	
 
 GOOD
 - asked me if i would be interested in a business internship with them
