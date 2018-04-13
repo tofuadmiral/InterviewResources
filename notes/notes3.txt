@@ -33,3 +33,6 @@ IMPROVE
 - KNOW YOUR ML if you're going to put it on resume, be specific with technologies
 - overfitting problem = many solutions
 - convolutional neural networks: n231 course at Stanford university, finish it!!!!!!! -- CHALLENGE
+
+
+UPDATE: very well written rejection email, perhaps can look at working with them later on. 
