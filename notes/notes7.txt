@@ -45,3 +45,10 @@ IMPROVE
 - KNOW SQL. THEN YOU COULD'VE GOT THE LAST QUESTION
 - worry less about the android questions they could ask you and more about basic data structures and algorithms questions
 - don't make the tour awkward, i.e. you said android stuff but it was actually XCODE.
+- don't talk unless you need to on a TOUR, it looked like it was going positively ://
+
+- post notes:
+	they emailed me and said this: 
+	heard your interview went well, should have an update for you by Friday. 
+
+	
