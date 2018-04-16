@@ -1,0 +1,9 @@
+Potential questions to ask interviewers: 
+
+What first attracted you to [AMAZING COMPANY] and what has helped keep you here over the years?
+What are some challenges your team is currently facing?
+What are you most excited about regarding the future direction of [AMAZING COMPANY]?
+Walk me through the development workflow/process: do you guys do scrum or standups? Pull requests? How are tasks determined and assigned?
+What are some projects I would work on in my first 90 or 180 days here?
+What did you work on when you first got here, or alternatively, tell me about the project you're most proud of?
+(to hiring managers/VPs/directors) When you think of a successful software engineer at [AMAZING COMPANY], what are the most common traits that come to mind?
