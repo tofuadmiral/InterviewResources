@@ -11,36 +11,42 @@ DIFFICULTY
 PERSONALITY Qs
 
 - talk about your projects!
-	answer: talked mainly about TGH ML project, how we made that, what my role was
+	A: talked mainly about TGH ML project, how we made that, what my role was
 - explained format first:
-	they asked me questions (personality first) then they asked me to ask questions 
+	A: they asked me questions (personality first) then they asked me to ask questions 
 - hospital mL, what was your specific role, what did you use, what tech? 
-	answer: role was prototyping, used sci-kit learn, python, SQL for the databases, etc. 
+	A: role was prototyping, used sci-kit learn, python, SQL for the databases, etc. 
 - talk about when you had to deal with rapid changes in a team
-	answer: rapid changes was our y-emote project, had to rapidly repurpose our working app to fit the challenge, 
+	A: rapid changes was our y-emote project, had to rapidly repurpose our working app to fit the challenge, 
             i.e. changed from student banking chatbot to customer sentiment analysis
 
 TECHNICAL Qs 
 
 - array find all the unique elements
-	answer: suggested
+	A: suggested
 - explain diff b/w JVM, JRE, and JDK
-	answer: 
-- SQL join tables, asked to make a query to design room bookings for hotels
-	answer: didn't know much SQL but did the design loosely just so that I could give an answer
+	A: told them literally what they stood for, then said some stuff about how JVM is the virtual machine where code runs, JRE is your runtime environment
+            and the JDK has all the files that allows you to do development
+- SQL joins? which ones do you know
+    A: talked about inner, cross, and outer
+- indexes in SQL?
+    A: didnt know what these were tbh, asked for more clarification on these 
+- unix/bash scripting, asked about how to ls, how to list all files w extension
+    A: ls, but didnt know about the "find" command 
+    
 
 
 ASKED THEM
 - what teams are there?
-	answer: three: mobile dev, backend and product
+	A: three: mobile dev, backend and product
 - chance to get involved with design?? 
-	answer: yes, very much so i.e. works closely with all teams
+	A: yes, very much so i.e. works closely with all teams
 - why objective C instead of SWIFT?
-	answer: phasing out objective C gradually 
+	A: phasing out objective C gradually 
 - how will culture change w acquisition?
-	answer: seperate offices, so not much. this why their hiring process has to be good
+	A: seperate offices, so not much. this why their hiring process has to be good
 - work on both iOS and android??
-	answer: yes, will work on both platforms
+	A: yes, will work on both platforms
 
 GOOD
 - impressed by my project
