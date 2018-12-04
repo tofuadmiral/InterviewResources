@@ -1,0 +1,43 @@
+Notes from phone interview w big advertising company 
+
+TYPE
+- phone	
+- large size
+
+DIFFICULTY
+- 1/5 (essentially a screen from HR)
+
+QUESTIONS
+- tell me about yourself
+	answer: explained how I got into tech, why I'm applying even though im Biomedical
+	- well done = talked about skills learned as well not just the path you travelled
+	- answer didn't flow as well in the beginning, could possibly improve upon that.
+- most skilled programming language?
+	- python, java, c, swift, javascript in that order. Talked about different 
+	- experiences where I had used those languages 
+- compensation that you're expecting (hourly)?
+	- said 25-30 an hour
+	- they said to be fully transparent that it was more like 20 an hour
+
+
+ASKED THEM
+- talk about how long do they spend on each project? 
+	- depends on project, might work on more than one at a time
+- travel opportunities?
+	- not as an intern except to client facing offices in the gta, but as a 
+	- full time hire, can choose to work on any project that you want in the world
+- local intern presentations? What are those
+	- for interns, they will explain more during the job, but mostly like a
+	- side project type thing
+
+GOOD
+- she said I had obviously done my research
+- got second round technical assessment 
+
+IMPROVE
+- make first answer flow more, but make sure it doesn't sound forced :)
+- post notes:
+	got the technical assessment! Then two more video interviews with the software
+	team 
+
+	
