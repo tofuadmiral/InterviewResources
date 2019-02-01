@@ -1,0 +1,49 @@
+TYPE
+- phone 
+- large
+- big tech
+- technical 
+
+DIFFICULTY
+- 4/5
+
+PERSONALITY Qs
+
+Introduced themselves, team they work on, asked what i did 
+
+TECHNICAL Qs 
+Q: implement a class
+A: have consideration on time and space complexity, multiple ways to use memory 
+
+Q: given an array of items, find certain items with certain arrangement
+A: find all possible combos or use a dictionary to store stuff and then find combos
+
+ASKED THEM
+Q: what excites you most about working at?
+A: learning new things
+
+Q: what was one thing you wish you knew before working there? 
+A: value of communication
+
+second guy
+
+Q: what problems do you see facing your team in the next 3-5 years?
+A: multiple problems
+
+Q: what other team would you work on at ?
+A: other teams, but really like my team and multiple roles within it as well
+
+GOOD
+- answered all questions
+- got the optimal solution
+- started with the brute force
+- communicated constantly, minimal silence
+
+IMPROVE
+- used a ton of hints
+- didnt get optimal in first one until got the hints
+- make sure to study object oriented programming in python
+
+
+
+	
