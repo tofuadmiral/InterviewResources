@@ -1,0 +1,27 @@
+"""
+feedback
+
+good:
+    asking for clarification
+    go through without coding, then test it
+    went through the entire solution then thought about improvements
+    
+    
+improve
+    have test cases before, so you can spot the issues
+    start thinking about them earlier 
+    in more complicated questions that can be super helpful 
+    
+
+general tech questions
+    good, asked about what happens when you put URLs into the browser
+    load balancing good, CDNs good, but talk about caching, so dont hit as often
+    improve performance? throttling, rate limiting, 
+    
+    how to handle requests:
+        totally fine to mention an implementation that you're familiar with
+        hitting a URL and getting to a view and controller, etc. 
+        
+    
+
+"""
