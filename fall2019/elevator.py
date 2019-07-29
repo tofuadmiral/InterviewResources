@@ -11,10 +11,17 @@ Summary:
 The following class models an elevator. This includes processing an input_arrayay of instructions, 
 displaying it's final current_floor and actually peforming the required carloads. 
 
+My approach was to convert every carload to a sorted unique list, 
+and then iterate through each carload and perform the necessary operations to 
+calculate floors passed, stops, and the current floor. I split the carload into
+floors above and floors below, and traversed the floors above in order from
+least to greatest, then traversed the floors below the current floor from greatest
+to least, in order to simulate how an actual elevator works and keeping in mind Rule 1. 
 
-some Ambiguities:
 
-Rule 1 interpretation:
+Some Ambiguities:
+
+Rule 1 Interpretation:
     I interpreted rule 1 to mean that if presented with the option of going either
     up or down, the elevator would move up FIRST and then move down.
     (i.e. if we're at 4 and the next carload is [3,5]
@@ -22,16 +29,18 @@ Rule 1 interpretation:
     (in this example, move to 5 first and then move to 3)
 
     When moving down (i.e. if we're at 5 and the carload is [4,3])
-    I assummed that the elevator would move to the nearest floors first, 
+    I assumed that the elevator would move to the nearest floors first, 
     as in moving first to 4 and then to 3, rather than moving to 3 and working 
     its way back up. This reduces floors passed and makes for a more efficient
     traversal of floors. 
 
 No total floor count given for the building:
-    I assummed that the given carloads would only have valid floors
+    I assumed that the given carloads would only have valid floors
     (i.e. no overflow past the top floor or underflow below the minimum)
     I think this is a valid assumption to make given that the carloads come from
     button presses within the elevator, which would only have valid floors. 
+    For clarification, my algorithm does work with negative floors up to - MAX_INT
+    and positive floors up to + MAX_INT, but assumes that all these are valid inputs. 
 
 
 Complexity:
@@ -114,8 +123,7 @@ if __name__ == "__main__":
     test2 = []
     test3 = [[1, 2, 2, 2, 2, 2], [3, 10, 50, 1], [6]]
     test4 = [[3, 1, 4], [2, 8, 4], [4, 6, 4, 9]]
-    test5 = [[3, 1, 4], [2, 8, 4], [4, 6, 4, 9]]
-    test6 = [[-3, 1, 4], [2, 8, -4], [4, 6, 4, -9]]
+    test5 = [[-3, 1, 4], [2, 8, -4], [4, 6, 4, -9]]
 
 
 
@@ -126,4 +134,3 @@ if __name__ == "__main__":
     elevator1.process_floors(test3)
     elevator1.process_floors(test4)
     elevator1.process_floors(test5)
-    elevator1.process_floors(test6)
