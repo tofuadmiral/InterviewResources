@@ -22,7 +22,7 @@ class Elevator:
         floors_passed = 0
 
         # keep track of what floor we're at 
-        current_floor = self.start 
+        current_floor = self.start  
 
         # convert each carload to a set, then sort those sets
         # this removes duplicates and sorts from least to greatest 
@@ -35,7 +35,7 @@ class Elevator:
 
             # traverse floors above as per rule 1 (travels up first)
             for floor in carload:
-                if floor > current_floor:
+                if floor >= current_floor:
                     floors_passed += abs(floor - current_floor)
                     current_floor = floor
                 else:
@@ -47,11 +47,11 @@ class Elevator:
                 current_floor = floor
 
         # Ouput results
-        print("Total carlods:", total_carloads)
+        print("Total carloads:", total_carloads)
         print("  Total stops:", total_stops)
         print("Floors passed:", floors_passed)
         print("  Final floor:", current_floor)
-        print("--------------------")
+        print("--------------------") # for readability 
 
 
 
@@ -65,6 +65,7 @@ if __name__ == "__main__":
     test3 = [[1, 2, 2, 2, 2, 2], [3, 10, 50, 1], [6]]
     test4 = [[3, 1, 4], [2, 8, 4], [4, 6, 4, 9]]
     test5 = [[-3, 1, 4], [2, 8, -4], [4, 6, 4, -9]]
+    test6 = [[5, 2, 3], [2, 8, -4], [4, 6, 4, -9]]
 
 
 
@@ -75,6 +76,8 @@ if __name__ == "__main__":
     elevator1.process_floors(test3)
     elevator1.process_floors(test4)
     elevator1.process_floors(test5)
+    elevator1.process_floors(test6)
+
 
 
 '''
