@@ -33,6 +33,16 @@ No total floor count given for the building:
     I think this is a valid assumption to make given that the carloads come from
     button presses within the elevator, which would only have valid floors. 
 
+
+Complexity:
+    Time complexity: O(n*logn), with n being the total number of floors in the array 
+    of arrays (each floor in carload). This is due to the sorting of the carloads, which uses
+    python's in built sorting function in n*logn time. everything else is done in linear time.
+
+    Space complexity: The worst case space complexity is n, with n being the total number of floors
+    in the array. This worst case arises because I initialize a new list of floors for "floors_below"
+    and the worst case scenario is that the entire array is belowing the elevator's starting point. 
+
 Errors:
     I noticed an issue with the test case. In the given example, the first carload is
     [3,1,4]. In the assignment document, it mentions that the car moves and delivers
@@ -105,6 +115,8 @@ if __name__ == "__main__":
     test3 = [[1, 2, 2, 2, 2, 2], [3, 10, 50, 1], [6]]
     test4 = [[3, 1, 4], [2, 8, 4], [4, 6, 4, 9]]
     test5 = [[3, 1, 4], [2, 8, 4], [4, 6, 4, 9]]
+    test6 = [[-3, 1, 4], [2, 8, -4], [4, 6, 4, -9]]
+
 
 
 
@@ -114,3 +126,4 @@ if __name__ == "__main__":
     elevator1.process_floors(test3)
     elevator1.process_floors(test4)
     elevator1.process_floors(test5)
+    elevator1.process_floors(test6)
