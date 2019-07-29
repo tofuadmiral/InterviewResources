@@ -8,84 +8,85 @@ Version: 1.0.0
 
 Summary: 
 
-The following class models an elevator. This includes processing an array of instructions, 
-displaying it's final position and actually peforming the required carloads. 
+The following class models an elevator. This includes processing an input_arrayay of instructions, 
+displaying it's final current_floor and actually peforming the required carloads. 
 
 
 some Ambiguities:
 
-always moves up first and then down:
-    interpreted that to mean given a set of instructions with both floors going up and down
-    (i.e. if we're at 4 and there's 3 and 5 both pressed)
+Rule 1 interpretation:
+    I interpreted rule 1 to mean that if presented with the option of going either
+    up or down, the elevator would move up FIRST and then move down.
+    (i.e. if we're at 4 and the next carload is [3,5]
     then we'll move to the one up first and then the one down
-    (in this example, move to five first and then move to three)
+    (in this example, move to 5 first and then move to 3)
 
 No total floor count given for the building:
-    because this wasn't specified, I assumed a building of 30 floors, 
-    and in each of my methods I added the # of floors serviced to 
-    be a constraint of the problem. this can be customized by the user
+    I assummed that the given carloads would only have valid floors
+    (i.e. no overflow past the top floor or underflow below the minimum)
+    I think this is a valid assumption to make given that the carloads come from
+    button presses within the elevator, which would only have valid floors. 
 
-Assumptions
-    I didn't take into account certain edge cases, given the practical nature of the problem.
-    Some examples: I didn't account for negative values in my arrays, since I assummed 
-    that there would only be floors above ground. This can be implemented pretty easily. 
+Errors:
+    I noticed an issue with the test case. In the given example, the first carload is
+    [3,1,4]. In the assignment document, it mentions that the car moves and delivers
+    everyone at the correct floor, and the car is now on floor 4. This is incorrect. 
+    The car starts at floor 5 (as stated in rule 4), moves to 4, then to 3, and finally
+    to 1. Thus, the car should become empty and end up at floor 1, not 4. 
 
-    when letting people out of the elevator, no one comes in at that floor. otherwise, the 
-    set of input carloads would change, and we would have to account for that. 
-
-
-
+    The only way that this would be correct was if the elevator had started on floor 0, 
+    in which case it would have traversed to 1, then to 3, and finally ended up at 4,
+    however this contradicts rule 4 of the elevator starting on floor 5. 
 '''
 
 
 class Elevator:
 
-    # initializer
-    def __init__(self, floors, start):
-        self.floors = floors
+    # initializer, specify the starting floor for each elevator
+    def __init__(self, start):
         self.start = start
+        
 
     # instance methods
-    def process_floors(self, arr):
-        # takes in an array of arrays of carloads, outputs 
-        # how many stops, carloads processed, floors it passed, final floor
-        
+    def process_floors(self, input_array):
+
         # initialize outputs
-        total_carloads = len(arr)
+        total_carloads = len(input_array)
         total_stops = 0
         floors_passed = 0
 
         # keep track of what floor we're at 
-        position = self.start 
+        current_floor = self.start 
 
-        # remove duplicates in carload and sort them from least to greatest 
-        arr = list(map(lambda x: sorted(list(set(x))), arr))
+        # convert each carload to a set, then sort those sets
+        # this removes duplicates and sorts from least to greatest 
+        input_array = list(map(lambda x: sorted(list(set(x))), input_array))
 
-        print("Array after sorting and removing duplicates: ", arr)
-
-        # now, for each carload, determine movements
-        for i in arr:
+        # now, for each carload, calculate stops and floors passed 
+        for carload in input_array:
             floors_below = []
-            total_stops += len(i)
+            total_stops += len(carload)
 
             # traverse floors above as per rule 1 (travels up first)
-            for j in i:
-                if j > position:
-                    floors_passed += abs(j - position)
-                    position = j
+            for floor in carload:
+                if floor > current_floor:
+                    floors_passed += abs(floor - current_floor)
+                    current_floor = floor
                 else:
-                    floors_below.append(j)
+                    floors_below.append(floor)
             
-            # then traverse floors below, from 
-            for k in reversed(floors_below): # reverse this to be in order from highest bottom floor to least
-                floors_passed += abs(k - position)
-                position = k
+            # then traverse floors below
+            for floor in reversed(floors_below): # reverse this to be in order from highest bottom floor to lowest
+                floors_passed += abs(floor - current_floor)
+                current_floor = floor
 
         # Ouput results
         print("Total carlods:", total_carloads)
         print("  Total stops:", total_stops)
         print("Floors passed:", floors_passed)
-        print("  Final floor:", position)
+        print("  Final floor:", current_floor)
+        print("--------------------")
+
 
 
 # MAIN FUNCTION
@@ -93,9 +94,16 @@ class Elevator:
 if __name__ == "__main__":
     # let's define some test cases
     test1 = [[3, 1, 4], [2, 8, 4], [4, 6, 4, 9]]
+    test2 = []
+    test3 = [[1, 2, 2, 2, 2, 2], [3, 10, 50, 1], [6]]
+    test4 = [[3, 1, 4], [2, 8, 4], [4, 6, 4, 9]]
+    test5 = [[3, 1, 4], [2, 8, 4], [4, 6, 4, 9]]
 
 
-    # change these values to 
-    elevator1 = Elevator(30, 5)
 
+    elevator1 = Elevator(5)
     elevator1.process_floors(test1)
+    elevator1.process_floors(test2)
+    elevator1.process_floors(test3)
+    elevator1.process_floors(test4)
+    elevator1.process_floors(test5)
