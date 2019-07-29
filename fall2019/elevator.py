@@ -78,7 +78,7 @@ class Elevator:
         # this removes duplicates and sorts from least to greatest 
         input_array = list(map(lambda x: sorted(list(set(x))), input_array))
 
-        # now, for each carload, calculate stops and floors passed 
+        # for each carload, calculate stops and floors passed 
         for carload in input_array:
             floors_below = []
             total_stops += len(carload)
@@ -91,7 +91,7 @@ class Elevator:
                 else:
                     floors_below.append(floor)
             
-            # then traverse floors below
+            # traverse floors below
             for floor in reversed(floors_below): # reverse this to be in order from highest bottom floor to lowest
                 floors_passed += abs(floor - current_floor)
                 current_floor = floor
@@ -109,7 +109,7 @@ class Elevator:
 
 if __name__ == "__main__":
 
-    # let's define some test cases
+    # test cases: 
     test1 = [[3, 1, 4], [2, 8, 4], [4, 6, 4, 9]]
     test2 = []
     test3 = [[1, 2, 2, 2, 2, 2], [3, 10, 50, 1], [6]]
