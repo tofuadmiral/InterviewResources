@@ -21,6 +21,12 @@ Rule 1 interpretation:
     then we'll move to the one up first and then the one down
     (in this example, move to 5 first and then move to 3)
 
+    When moving down (i.e. if we're at 5 and the carload is [4,3])
+    I assummed that the elevator would move to the nearest floors first, 
+    as in moving first to 4 and then to 3, rather than moving to 3 and working 
+    its way back up. This reduces floors passed and makes for a more efficient
+    traversal of floors. 
+
 No total floor count given for the building:
     I assummed that the given carloads would only have valid floors
     (i.e. no overflow past the top floor or underflow below the minimum)
@@ -34,7 +40,7 @@ Errors:
     The car starts at floor 5 (as stated in rule 4), moves to 4, then to 3, and finally
     to 1. Thus, the car should become empty and end up at floor 1, not 4. 
 
-    The only way that this would be correct was if the elevator had started on floor 0, 
+    The given example would have been correct if the elevator had started on floor 0, 
     in which case it would have traversed to 1, then to 3, and finally ended up at 4,
     however this contradicts rule 4 of the elevator starting on floor 5. 
 '''
@@ -92,6 +98,7 @@ class Elevator:
 # MAIN FUNCTION
 
 if __name__ == "__main__":
+
     # let's define some test cases
     test1 = [[3, 1, 4], [2, 8, 4], [4, 6, 4, 9]]
     test2 = []
