@@ -10,7 +10,7 @@ class Elevator:
 
     # initializer, specify the starting floor for each elevator
     def __init__(self, start):
-        self.start = start
+        self.start = start # rule 4 states that it starts on floor 5
         
 
     # instance methods
@@ -69,7 +69,7 @@ if __name__ == "__main__":
 
 
 
-    elevator1 = Elevator(5)
+    elevator1 = Elevator(5) # start the elevator at floor 5 as per rule 4
     elevator1.process_floors(test1)
     elevator1.process_floors(test2)
     elevator1.process_floors(test3)
